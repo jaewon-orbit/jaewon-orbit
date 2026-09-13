@@ -48,7 +48,7 @@ Explored a large NYC taxi dataset in Python to practice finding signals in real-
 
 `Python` · `NumPy` · `Data Analysis` · `Jupyter Notebook`
 
-## Exploring New Frontiers
+## Trying New Things
 
 ### 🚗 [Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)
 
