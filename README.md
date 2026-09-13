@@ -34,18 +34,6 @@ A UAV docking simulation with a guidance-inspired approach trajectory, target-po
 
 `Unity` · `C#` · `Physics` · `Cinemachine`
 
-### 🎓 [Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)
-
-A Unity and WebGL virtual graduation exhibition created for the 2022 Gachon University Metaverse Contest. I implemented the interaction that takes a visitor from a selected artwork to its introduction page.
-
-`Unity` · `WebGL` · `Interactive Experience`
-
-### 🎮 [TankBlitz](https://github.com/jaewon-orbit/TankBlitz) · [Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)
-
-Unity game projects that built my foundations: TankBlitz introduced me to physics through cannon firing, while the Raiden-inspired shooter taught me how to structure a 2D game.
-
-`Unity` · `C#` · `Game Physics` · `2D Development`
-
 ## Data Analysis
 
 ### 🚑 [Golden Time Blind Spots](https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots)
@@ -79,6 +67,18 @@ Explored Apple Vision Pro through early developer access, motivated by a curiosi
 A pedestrian-safety app for people walking while looking at their phones. I collected data and trained a model to recognize hazards such as stairs and crosswalks from the downward-facing camera, then deliver a warning even while the user is watching a video.
 
 `Kotlin` · `Data Collection` · `Model Training` · `Mobile AR`
+
+### 🎓 [Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)
+
+A Unity and WebGL virtual graduation exhibition created for the 2022 Gachon University Metaverse Contest. I implemented the interaction that takes a visitor from a selected artwork to its introduction page.
+
+`Unity` · `WebGL` · `Interactive Experience`
+
+### 🎮 [TankBlitz](https://github.com/jaewon-orbit/TankBlitz) · [Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)
+
+Unity game projects that built my foundations: TankBlitz introduced me to physics through cannon firing, while the Raiden-inspired shooter taught me how to structure a 2D game.
+
+`Unity` · `C#` · `Game Physics` · `2D Development`
 
 ## Skills
 
