@@ -1,65 +1,42 @@
+
 <div align="center">
 
-# Jaewon Kim
-
-### Python · Robotics · Simulation · Embedded Systems
-
-I build software that connects intelligent code to physical systems — from **Python-powered remote control** to **Unity simulations**.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-
-[YouTube](https://youtube.com/@jtotheone) · [Email](mailto:gjeus0707@gmail.com)
+<h1>I love to work on something that a lot of people including me will find very useful</h1>
 
 </div>
 
-## What I build
+## Simulation Projects
 
-- **Robotics & Embedded Systems** — control real-world hardware with Python, microcontrollers, motors, and network services.
-- **Simulation** — prototype autonomous behavior, guidance, and docking logic in Unity.
-- **Python Services** — build practical APIs and real-time systems with FastAPI and WebSocket.
+### 🤖 [Unity ROS1 Pick-and-Place](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial)
 
-## Featured projects
+Robotic-arm pick-and-place simulation using Unity Robotics Hub and ROS1 Noetic. Built a TCP connection between Unity and ROS, with Docker providing a reproducible ROS environment.
 
-### 💡 [Life Switch](https://github.com/jaewon-orbit/life-switch)
+`Unity` · `ROS1 Noetic` · `Docker` · `TCP` · `Robotic Manipulation`
 
-**Remote control for a real-world physical switch — without rewiring.**
+### 🎥 [Synthetic Dataset Generation](https://github.com/jaewon-orbit/Synthetic-Dataset-Generation)
 
-A Python-centered robotics and embedded system that drives a DYNAMIXEL motor to operate an existing lamp switch. A FastAPI + WebSocket relay connects a mobile web UI to an ESP32 and OpenRB-150 controller, enabling remote control and real motor-position status sync.
+Generated synthetic Unity scenes and video datasets for computer-vision-based docking and 6D rotation estimation. The generated dataset is also published on Hugging Face.
 
-`Python` · `FastAPI` · `WebSocket` · `ESP32` · `DYNAMIXEL` · `Autodesk Fusion`
-
-[Repository →](https://github.com/jaewon-orbit/life-switch) · [Demo videos →](https://youtube.com/@jtotheone)
+`Unity` · `C#` · `Computer Vision` · `Synthetic Data`
 
 ### ✈️ [Docking Scene Simulation](https://github.com/jaewon-orbit/Docking-Scene)
 
-**Autonomous drone docking simulation built in Unity.**
+UAV docking simulation with a guidance-inspired approach trajectory, target-point control, trigger-driven docking events, smooth quaternion rotation, and stable physics updates.
 
-Implemented a missile-guidance-inspired approach trajectory, target-point optimization, trigger-driven docking events, smooth quaternion rotation, and stable physics updates for a UAV-to-target docking scenario.
+`Unity` · `C#` · `Physics` · `Cinemachine`
 
-`Unity` · `C#` · `Physics` · `Cinemachine` · `Autonomous Guidance`
+## Skills
 
-[Repository →](https://github.com/jaewon-orbit/Docking-Scene) · [Watch demo →](https://www.youtube.com/watch?v=tNUVmWVUYQc)
+<p align="center">
+<img src="https://img.shields.io/badge/-C++-blue?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python3-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
+</p>
 
-## Python focus
-
-Python is my core tool for taking an idea from a hardware prototype to a usable connected system.
-
-| Area | Applied work |
-| --- | --- |
-| Hardware control | DYNAMIXEL SDK motor profiles and current-based position control |
-| Backend & real-time communication | FastAPI relay and persistent WebSocket command/status flow |
-| Networking | ESP32 outbound connection architecture that works without home-router port forwarding |
-| Data analysis | [NYC Taxi Demand & Destination Prediction](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction) |
-
-## More work
-
-- [Unity ROS1 Pick-and-Place Tutorial](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial) — robotics simulation learning and integration
-- [Synthetic Dataset Generation](https://github.com/jaewon-orbit/Synthetic-Dataset-Generation) — synthetic data work with Unity/C# tooling
-- [Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List) — in-vehicle productivity concept in C++
-
----
-
-<div align="center"><i>Interested in building software that moves beyond the screen.</i></div>
+<p align="center">
+<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nvidia_Omniverse-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebGL-990099?style=for-the-badge&logo=webgl&logoColor=white"/>
+<img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gazebo-529C52?style=for-the-badge&logo=gazebo&logoColor=white"/>
+</p>
