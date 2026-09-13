@@ -14,6 +14,10 @@ A project for remotely controlling a real-world physical switch without rewiring
 
 `Python` · `FastAPI` · `WebSocket` · `ESP32` · `OpenRB-150` · `DYNAMIXEL`
 
+<a href="https://www.youtube.com/watch?v=OXimIOwr_dM">
+  <img src="https://img.youtube.com/vi/YEqdWxMdJRQ/0.jpg" width="240" alt="Life Switch demo video" />
+</a>
+
 ## Robotics & Simulation
 
 ### 🤖 [Unity ROS1 Pick-and-Place](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial)
@@ -61,6 +65,12 @@ Built a small task-management experience for the Tesla infotainment environment 
 Explored Apple Vision Pro through early developer access, motivated by a curiosity for new platforms before they reach a wider audience.
 
 `visionOS` · `Spatial Computing`
+
+### ✅ [Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)
+
+A Gachon University assignment organizer built to prevent deadline misunderstandings and missed submissions. It extracts Cyber Campus assignment data, classifies work by submission status, and presents time remaining until each deadline. Through this project, I learned how API integration, web crawling, frontend, backend, and database work come together in an app.
+
+`API` · `Web Crawling` · `Frontend` · `Backend` · `Database` · `Mobile App`
 
 ### 🚶 [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
 
