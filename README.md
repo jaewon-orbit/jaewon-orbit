@@ -60,13 +60,7 @@ Explored a large NYC taxi dataset in Python to practice finding signals in real-
 
 `Python` · `NumPy` · `Data Analysis` · `Jupyter Notebook`
 
-### 🚶 [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
-
-A pedestrian-safety app for people walking while looking at their phones. I collected data and trained a model to recognize hazards such as stairs and crosswalks from the downward-facing camera, then deliver a warning even while the user is watching a video.
-
-`Kotlin` · `Data Collection` · `Model Training` · `Mobile AR`
-
-## Exploring New Technology
+## Exploring New Frontiers
 
 ### 🚗 [Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)
 
@@ -79,6 +73,12 @@ Built a small task-management experience for the Tesla infotainment environment 
 Explored Apple Vision Pro through early developer access, motivated by a curiosity for new platforms before they reach a wider audience.
 
 `visionOS` · `Spatial Computing`
+
+### 🚶 [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
+
+A pedestrian-safety app for people walking while looking at their phones. I collected data and trained a model to recognize hazards such as stairs and crosswalks from the downward-facing camera, then deliver a warning even while the user is watching a video.
+
+`Kotlin` · `Data Collection` · `Model Training` · `Mobile AR`
 
 ## Skills
 
