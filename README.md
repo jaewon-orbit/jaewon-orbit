@@ -15,7 +15,8 @@ An embedded system that lets me operate an existing lamp switch from my phone. I
 The first version needed a connected PC. That felt excessive for switching a lamp on and off, so I moved to ESP32-based control. I also addressed mismatches between the displayed state and motor position by requesting position on page load or browser reconnection and using position feedback after a button press, rather than polling continuously. The project taught me to adapt the hardware and communication approach to the actual job.
 
 `Python` · `FastAPI` · `WebSocket` · `ESP32` · `DYNAMIXEL`  
-<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" style="vertical-align:middle" /> [Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
+<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle" /> [Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
+
 
 <a href="https://www.youtube.com/watch?v=OXimIOwr_dM">
   <img src="https://img.youtube.com/vi/OXimIOwr_dM/0.jpg" width="240" alt="Life Switch demo video" />
@@ -28,7 +29,7 @@ The first version needed a connected PC. That felt excessive for switching a lam
 A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set up ROS1 Noetic in Docker and connected it to Unity over TCP to run a simulated robot arm. The focus was understanding the ROS–Unity interface and keeping the ROS environment consistent.
 
 `Unity` · `ROS1 Noetic` · `Docker` · `TCP`  
-<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" /> [Integration demo](https://www.youtube.com/watch?v=XwEW-qXYQpw) · <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" /> [Motion planning demo](https://www.youtube.com/watch?v=53JapN59ZOc)
+<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Integration demo](https://www.youtube.com/watch?v=XwEW-qXYQpw)   <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Motion planning demo](https://www.youtube.com/watch?v=53JapN59ZOc)
 
 <a href="https://www.youtube.com/watch?v=XwEW-qXYQpw">
   <img src="https://img.youtube.com/vi/XwEW-qXYQpw/0.jpg" width="240" alt="Unity ROS1 pick-and-place demo" />
@@ -41,7 +42,7 @@ A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set
 A Unity visualization for a university research project on recovering a fixed-wing UAV with a moving ground vehicle. I created the approach and docking sequence using target points, trigger events, and camera control. The video helped participating institutions and government stakeholders understand the overall concept as the project got underway.
 
 `Unity` · `C#` · `Cinemachine`  
-<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" /> [Demo](https://www.youtube.com/watch?v=tNUVmWVUYQc)
+<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Demo](https://www.youtube.com/watch?v=tNUVmWVUYQc)
 
 <a href="https://www.youtube.com/watch?v=tNUVmWVUYQc">
   <img src="https://img.youtube.com/vi/tNUVmWVUYQc/0.jpg" width="240" alt="Fixed-wing UAV recovery visualization" />
@@ -54,7 +55,7 @@ A Unity visualization for a university research project on recovering a fixed-wi
 A Unity image-generation script built to help a friend collect training data for an object-rotation estimation project. It reads yaw, pitch, and roll values from a CSV, rotates a 3D object, and captures a 512×512 image for each pose. This let me generate many views automatically and publish the dataset on Hugging Face.
 
 `Unity` · `C#` · `Synthetic Data`  
-<img src="https://cdn.simpleicons.org/huggingface" width="16" height="10" alt="Hugging Face" /> [Dataset](https://huggingface.co/datasets/coding-Jay/Synthetic-Datasets-Unity-CV) · <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" /> [Demo](https://youtu.be/wjZhpO2m6Bk)
+<img src="https://cdn.simpleicons.org/huggingface" width="16" height="16" alt="Hugging Face" align="absmiddle" /> [Dataset](https://huggingface.co/datasets/coding-Jay/Synthetic-Datasets-Unity-CV)   <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle" /> [Demo](https://youtu.be/wjZhpO2m6Bk)
 
 <a href="https://www.youtube.com/watch?v=wjZhpO2m6Bk">
   <img src="https://img.youtube.com/vi/wjZhpO2m6Bk/0.jpg" width="240" alt="Synthetic dataset generation in Unity" />
@@ -71,7 +72,7 @@ During my Monash University internship, I led an analysis of areas beyond a four
 Working through the spatial queries taught me why SQL efficiency matters at scale and how to make the findings clear through maps.
 
 `PostgreSQL` · `Spatial SQL` · `QGIS` · `Docker`  
-<img src="https://cdn.simpleicons.org/notion/808080" width="16" height="10" alt="Notion" /> [Project documentation](https://app.notion.com/p/Golden-Time-Blind-Spots-Project-Documentation-727d6956ab994465be9b6d7a29a52009?source=copy_link)
+<img src="https://cdn.simpleicons.org/notion/808080" width="16" height="16" alt="Notion" align="absmiddle"/> [Project documentation](https://app.notion.com/p/Golden-Time-Blind-Spots-Project-Documentation-727d6956ab994465be9b6d7a29a52009?source=copy_link)
 
 <a href="https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots">
   <img src="https://raw.githubusercontent.com/jaewon-orbit/jaewon-orbit/main/assets/golden-time-map.png" width="240" alt="Map from the Golden Time Blind Spots project" />
@@ -86,7 +87,7 @@ Working through the spatial queries taught me why SQL efficiency matters at scal
 An Android prototype that uses the phone camera to recognize surroundings such as stairs and crosswalks and display warnings while another app is open. My work focused on collecting images and training the classification model.
 
 `PyTorch` · `EfficientNet-B0`  
-<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" /> [Demo](https://www.youtube.com/watch?v=ECNi-IljLDc)
+<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Demo](https://www.youtube.com/watch?v=ECNi-IljLDc)
 
 <a href="https://www.youtube.com/watch?v=ECNi-IljLDc">
   <img src="https://img.youtube.com/vi/ECNi-IljLDc/0.jpg" width="240" alt="Smombie AR demo" />
@@ -119,4 +120,4 @@ An Android prototype that uses the phone camera to recognize surroundings such a
 
 ## Contact
 
-[Gmail](https://mail.google.com/mail/?view=cm&fs=1&to=gjeus0707%40gmail.com) · gjeus0707@gmail.com · <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="10" alt="YouTube" /> [Project videos](https://www.youtube.com/@jtotheone)
+[Gmail](https://mail.google.com/mail/?view=cm&fs=1&to=gjeus0707%40gmail.com) · gjeus0707@gmail.com · <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Project videos](https://www.youtube.com/@jtotheone)
