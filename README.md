@@ -1,104 +1,96 @@
-<div align="center">
+# Hi, I'm Jaewon
 
-<h1>I love to work on something that a lot of people including me will find very useful</h1>
+I build systems that connect software, simulation, and physical hardware.
 
-<sub>Python · Simulation · Robotics</sub>
+My projects span remote actuator control, ROS–Unity integration, and simulation tooling. **I'm particularly interested in ADAS systems engineering and verification & validation.**
 
-</div>
+Python · C# · Unity · ROS · Hardware–Software Integration
 
----
+## Professional Experience
 
-## 💡 [Life Switch](https://github.com/jaewon-orbit/life-switch)
+**Tesla · Vehicle Operator, Autopilot Team**  
+Seoul, South Korea · Aug 2023 – Mar 2026
 
-A project for remotely controlling a real-world physical switch without rewiring it. A DYNAMIXEL motor physically toggles the existing switch while Python services and embedded hardware connect a mobile interface to the device.
+- Tested ADAS and autonomous driving features, collected vehicle data, and reported findings to the development team.
+- Reviewed CAN signal logs and simulation replays to investigate driving anomalies, then supported follow-up testing.
+- Standardized test routes for Korean traffic conditions and ran requirement-based Production Check / Sign-Off scenarios.
+- Built a JSON-based report retrieval tool that reduced retrieval time from about 3 minutes to under 10 seconds.
 
-`Python` · `FastAPI` · `WebSocket` · `ESP32` · `OpenRB-150` · `DYNAMIXEL`
+Previously, I worked on robotics at Gachon University's Intelligent Robotics and Autonomous System Control Lab and geospatial analysis during a research internship at Monash University.
 
-<a href="https://www.youtube.com/watch?v=OXimIOwr_dM">
-  <img src="https://img.youtube.com/vi/YEqdWxMdJRQ/0.jpg" width="240" alt="Life Switch demo video" />
-</a>
+## Selected Engineering Projects
 
-## Robotics & Simulation
+### 1. [Life Switch](https://github.com/jaewon-orbit/life-switch)
 
-### 🤖 [Unity ROS1 Pick-and-Place](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial)
+An embedded system that lets me operate an existing lamp switch from my phone. I connected a browser interface, a FastAPI relay, ESP32, OpenRB-150, and a DYNAMIXEL motor without changing the lamp's wiring.
 
-Robotic-arm pick-and-place simulation using Unity Robotics Hub and ROS1 Noetic, connected through TCP with Docker providing a reproducible ROS environment.
+The first version needed a connected PC. That felt excessive for switching a lamp on and off, so I moved to ESP32-based control. I also addressed mismatches between the displayed state and motor position by requesting position on page load or browser reconnection and using position feedback after a button press, rather than polling continuously. The project taught me to adapt the hardware and communication approach to the actual job.
 
-`Unity` · `ROS1 Noetic` · `Docker` · `TCP`
+`Python` · `FastAPI` · `WebSocket` · `ESP32` · `DYNAMIXEL`  
+[Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
 
-### 🎥 [Synthetic Dataset Generation](https://github.com/jaewon-orbit/Synthetic-Dataset-Generation)
+### 2. [Unity ROS1 Pick-and-Place](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial)
 
-Used Unity automation to rotate a 3D object through fixed angles and capture images at each position—an efficient way to generate the varied synthetic datasets needed for deep-learning work.
+A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set up ROS1 Noetic in Docker and connected it to Unity over TCP to run a simulated robot arm. The focus was understanding the ROS–Unity interface and keeping the ROS environment consistent.
 
-`Unity` · `C#` · `Computer Vision` · `Synthetic Data`
+`Unity` · `ROS1 Noetic` · `Docker` · `TCP`  
+[Integration demo](https://www.youtube.com/watch?v=XwEW-qXYQpw) · [Motion planning demo](https://www.youtube.com/watch?v=53JapN59ZOc)
 
-### ✈️ [Docking Scene Simulation](https://github.com/jaewon-orbit/Docking-Scene)
+### 3. [Docking Scene](https://github.com/jaewon-orbit/Docking-Scene)
 
-A UAV docking simulation with a guidance-inspired approach trajectory, target-point control, trigger-driven docking events, smooth quaternion rotation, and stable physics updates.
+A Unity visualization for a university research project on recovering a fixed-wing UAV with a moving ground vehicle. I created the approach and docking sequence using target points, trigger events, and camera control. The video helped participating institutions and government stakeholders understand the overall concept as the project got underway.
 
-`Unity` · `C#` · `Physics` · `Cinemachine`
+`Unity` · `C#` · `Cinemachine`  
+[Demo](https://www.youtube.com/watch?v=tNUVmWVUYQc)
 
-## Data Analysis
+### 4. [Synthetic Dataset Generation](https://github.com/jaewon-orbit/Synthetic-Dataset-Generation)
 
-### 🚑 [Golden Time Blind Spots](https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots)
+A Unity image-generation script built to help a friend collect training data for an object-rotation estimation project. It reads yaw, pitch, and roll values from a CSV, rotates a 3D object, and captures a 512×512 image for each pose. This let me generate many views automatically and publish the dataset on Hugging Face.
 
-Investigated whether 119 ambulances can reach communities within the emergency golden time. I processed large-scale geospatial data, learned why efficient SQL queries matter at scale, and used QGIS to turn the result into maps. Seoul showed broad coverage, while the nationwide view revealed many underserved areas.
+`Unity` · `C#` · `Synthetic Data`  
+[Dataset](https://huggingface.co/datasets/coding-Jay/Synthetic-Datasets-Unity-CV) · [Demo](https://youtu.be/wjZhpO2m6Bk)
 
-`PostgreSQL` · `PostGIS` · `Spatial SQL` · `QGIS` · `Docker`
+## Geospatial Analysis
 
-### 🚕 [NYC Taxi Trend Analysis](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction)
+### [Golden Time Blind Spots](https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots)
 
-Explored a large NYC taxi dataset in Python to practice finding signals in real-world data. One memorable result: riders tended to leave their highest tips in the very early morning.
+During my Monash University internship, I led an analysis of areas beyond a four-minute ambulance coverage threshold in South Korea. The analysis classified about **45% of 18,801 small administrative areas** as outside that threshold. Maps incorporating population density highlighted areas near urban boundaries where additional ambulance coverage could be considered.
 
-`Python` · `NumPy` · `Data Analysis` · `Jupyter Notebook`
+Working through the spatial queries taught me why SQL efficiency matters at scale and how to make the findings clear through maps.
 
-## Trying New Things
+`PostgreSQL` · `Spatial SQL` · `QGIS` · `Docker`
 
-### 🚗 [Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)
+## Computer Vision
 
-Built a small task-management experience for the Tesla infotainment environment to get hands-on with what in-vehicle software development feels like.
+### [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
 
-`C++` · `Automotive Infotainment`
+An Android prototype that uses the phone camera to recognize surroundings such as stairs and crosswalks and display warnings while another app is open. My work focused on collecting images and training the classification model.
 
-### 🥽 [Apple Vision OS Demo](https://github.com/jaewon-orbit/Apple-Vison-OS-Demo)
+`Kotlin` · `PyTorch` · `ONNX Runtime`  
+[Demo](https://www.youtube.com/watch?v=ECNi-IljLDc)
 
-Explored Apple Vision Pro through early developer access, motivated by a curiosity for new platforms before they reach a wider audience.
+## Technical Skills
 
-`visionOS` · `Spatial Computing`
+- **Programming:** Python, C#, SQL; C++/Qt and Kotlin in personal projects
+- **Simulation & robotics:** Unity, ROS1, Gazebo, Docker
+- **Hardware integration:** ESP32, OpenRB-150, DYNAMIXEL, UART, WebSocket
+- **Data & testing:** PostgreSQL, QGIS, CAN log review, Xray, Jira, Linux
 
-### ✅ [Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)
+## Other Projects
 
-A Gachon University assignment organizer built to prevent deadline misunderstandings and missed submissions. It extracts Cyber Campus assignment data, classifies work by submission status, and presents time remaining until each deadline. Through this project, I learned how API integration, web crawling, frontend, backend, and database work come together in an app.
+<details>
+<summary>Data analysis, applications, and earlier projects</summary>
 
-`API` · `Web Crawling` · `Frontend` · `Backend` · `Database` · `Mobile App`
+- **[NYC Taxi Trend Analysis](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction)** — Python notebooks exploring demand, destinations, and recorded tips in NYC taxi trip data.
+- **[Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)** — A university team project that groups assignments by submission status and makes midnight deadlines easier to understand.
+- **[Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)** — A personal C++/Qt task-list project exploring a Tesla-style infotainment interface.
+- **[Apple visionOS Demo](https://github.com/jaewon-orbit/Apple-Vison-OS-Demo)** — An early exploration of visionOS using the Xcode simulator.
+- **[Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)** — A team-built Roblox recreation of Gachon University's campus for its 2022 Metaverse Contest.
+- **[TankBlitz](https://github.com/jaewon-orbit/TankBlitz)** — A Unity multiplayer tank game where I explored projectile motion and networked gameplay.
+- **[Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)** — A Unity learning project covering object pooling, game states, and scoring.
 
-### 🚶 [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
+</details>
 
-A pedestrian-safety app for people walking while looking at their phones. I collected data and trained a model to recognize hazards such as stairs and crosswalks from the downward-facing camera, then deliver a warning even while the user is watching a video.
+## Contact
 
-`Kotlin` · `Data Collection` · `Model Training` · `Mobile AR`
-
-### 🎓 [Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)
-
-A Unity and WebGL virtual graduation exhibition created for the 2022 Gachon University Metaverse Contest. I implemented the interaction that takes a visitor from a selected artwork to its introduction page.
-
-`Unity` · `WebGL` · `Interactive Experience`
-
-### 🎮 [TankBlitz](https://github.com/jaewon-orbit/TankBlitz) · [Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)
-
-Unity game projects that built my foundations: TankBlitz introduced me to physics through cannon firing, while the Raiden-inspired shooter taught me how to structure a 2D game.
-
-`Unity` · `C#` · `Game Physics` · `2D Development`
-
-## Skills
-
-<p align="center">
-<img src="https://img.shields.io/badge/Python3-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nvidia_Omniverse-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gazebo-529C52?style=for-the-badge&logo=gazebo&logoColor=white"/>
-</p>
+[Email](mailto:gjeus0707@gmail.com) · [Project videos](https://www.youtube.com/@jtotheone)
