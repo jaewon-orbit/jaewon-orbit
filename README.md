@@ -38,7 +38,7 @@ A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set
 
 ### 3. [Docking Scene](https://github.com/jaewon-orbit/Docking-Scene)
 
-A Unity visualization for a university research project on recovering a fixed-wing UAV with a moving ground vehicle. I created the approach and docking sequence using target points, trigger events, and camera control. The video helped participating institutions and government stakeholders understand the overall concept as the project got underway.
+A Unity visualization developed for a university research project on recovering a fixed-wing UAV using a moving ground vehicle. I created the approach and docking sequence with target points, trigger events, and camera control. The video helped participating institutions and stakeholders grasp the overall concept as the project got underway.
 
 `Unity` · `C#` · `Cinemachine`  
 <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Demo](https://www.youtube.com/watch?v=tNUVmWVUYQc)
