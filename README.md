@@ -6,18 +6,6 @@ My projects span remote actuator control, ROS–Unity integration, and simulatio
 
 Python · C# · Unity · ROS · Hardware–Software Integration
 
-## Professional Experience
-
-**Tesla · Vehicle Operator, Autopilot Team**  
-Seoul, South Korea · Aug 2023 – Mar 2026
-
-- Tested ADAS and autonomous driving features, collected vehicle data, and reported findings to the development team.
-- Reviewed CAN signal logs and simulation replays to investigate driving anomalies, then supported follow-up testing.
-- Standardized test routes for Korean traffic conditions and ran requirement-based Production Check / Sign-Off scenarios.
-- Built a JSON-based report retrieval tool that reduced retrieval time from about 3 minutes to under 10 seconds.
-
-Previously, I worked on robotics at Gachon University's Intelligent Robotics and Autonomous System Control Lab and geospatial analysis during a research internship at Monash University.
-
 ## Selected Engineering Projects
 
 ### 1. [Life Switch](https://github.com/jaewon-orbit/life-switch)
@@ -74,7 +62,7 @@ An Android prototype that uses the phone camera to recognize surroundings such a
 - **Programming:** Python, C#, SQL; C++/Qt and Kotlin in personal projects
 - **Simulation & robotics:** Unity, ROS1, Gazebo, Docker
 - **Hardware integration:** ESP32, OpenRB-150, DYNAMIXEL, UART, WebSocket
-- **Data & testing:** PostgreSQL, QGIS, CAN log review, Xray, Jira, Linux
+- **Data & tools:** PostgreSQL, QGIS, Linux
 
 ## Other Projects
 
