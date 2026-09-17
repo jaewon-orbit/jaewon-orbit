@@ -26,6 +26,10 @@ A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set
 `Unity` · `ROS1 Noetic` · `Docker` · `TCP`  
 [Integration demo](https://www.youtube.com/watch?v=XwEW-qXYQpw) · [Motion planning demo](https://www.youtube.com/watch?v=53JapN59ZOc)
 
+<a href="https://www.youtube.com/watch?v=XwEW-qXYQpw">
+  <img src="https://img.youtube.com/vi/XwEW-qXYQpw/0.jpg" width="240" alt="Unity ROS1 pick-and-place demo" />
+</a>
+
 ### 3. [Docking Scene](https://github.com/jaewon-orbit/Docking-Scene)
 
 A Unity visualization for a university research project on recovering a fixed-wing UAV with a moving ground vehicle. I created the approach and docking sequence using target points, trigger events, and camera control. The video helped participating institutions and government stakeholders understand the overall concept as the project got underway.
@@ -33,12 +37,20 @@ A Unity visualization for a university research project on recovering a fixed-wi
 `Unity` · `C#` · `Cinemachine`  
 [Demo](https://www.youtube.com/watch?v=tNUVmWVUYQc)
 
+<a href="https://www.youtube.com/watch?v=tNUVmWVUYQc">
+  <img src="https://img.youtube.com/vi/tNUVmWVUYQc/0.jpg" width="240" alt="Fixed-wing UAV recovery visualization" />
+</a>
+
 ### 4. [Synthetic Dataset Generation](https://github.com/jaewon-orbit/Synthetic-Dataset-Generation)
 
 A Unity image-generation script built to help a friend collect training data for an object-rotation estimation project. It reads yaw, pitch, and roll values from a CSV, rotates a 3D object, and captures a 512×512 image for each pose. This let me generate many views automatically and publish the dataset on Hugging Face.
 
 `Unity` · `C#` · `Synthetic Data`  
 [Dataset](https://huggingface.co/datasets/coding-Jay/Synthetic-Datasets-Unity-CV) · [Demo](https://youtu.be/wjZhpO2m6Bk)
+
+<a href="https://www.youtube.com/watch?v=wjZhpO2m6Bk">
+  <img src="https://img.youtube.com/vi/wjZhpO2m6Bk/0.jpg" width="240" alt="Synthetic dataset generation in Unity" />
+</a>
 
 ## Geospatial Analysis
 
@@ -50,14 +62,22 @@ Working through the spatial queries taught me why SQL efficiency matters at scal
 
 `PostgreSQL` · `Spatial SQL` · `QGIS` · `Docker`
 
+<a href="https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots">
+  <img src="https://raw.githubusercontent.com/jaewon-orbit/jaewon-orbit/main/assets/golden-time-map.png" width="240" alt="Map from the Golden Time Blind Spots project" />
+</a>
+
 ## Computer Vision
 
 ### [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
 
 An Android prototype that uses the phone camera to recognize surroundings such as stairs and crosswalks and display warnings while another app is open. My work focused on collecting images and training the classification model.
 
-`PyTorch`  
+`PyTorch` · `EfficientNet-B0`  
 [Demo](https://www.youtube.com/watch?v=ECNi-IljLDc)
+
+<a href="https://www.youtube.com/watch?v=ECNi-IljLDc">
+  <img src="https://img.youtube.com/vi/ECNi-IljLDc/0.jpg" width="240" alt="Smombie AR demo" />
+</a>
 
 ## Other Projects
 
@@ -76,4 +96,4 @@ An Android prototype that uses the phone camera to recognize surroundings such a
 
 ## Contact
 
-[Email](mailto:gjeus0707@gmail.com) · [Project videos](https://www.youtube.com/@jtotheone)
+[Gmail](https://mail.google.com/mail/?view=cm&fs=1&to=gjeus0707%40gmail.com) · gjeus0707@gmail.com · [Project videos](https://www.youtube.com/@jtotheone)
