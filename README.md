@@ -2,9 +2,9 @@
 
 I build systems that connect software, simulation, and physical hardware.
 
-My projects span remote actuator control, ROS–Unity integration, and simulation tooling. **I'm particularly interested in ADAS systems engineering and verification & validation.**
+My projects span remote actuator control, ROS–Unity integration, and simulation tooling. I'm particularly interested in ADAS systems engineering and verification & validation.
 
-Python · C# · Unity · ROS · Hardware–Software Integration
+Python · C# · Unity · ROS
 
 ## Selected Engineering Projects
 
@@ -15,7 +15,9 @@ An embedded system that lets me operate an existing lamp switch from my phone. I
 The first version needed a connected PC. That felt excessive for switching a lamp on and off, so I moved to ESP32-based control. I also addressed mismatches between the displayed state and motor position by requesting position on page load or browser reconnection and using position feedback after a button press, rather than polling continuously. The project taught me to adapt the hardware and communication approach to the actual job.
 
 `Python` · `FastAPI` · `WebSocket` · `ESP32` · `DYNAMIXEL`  
-[Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
+<a href="https://www.youtube.com/watch?v=OXimIOwr_dM">
+  <img src="https://img.youtube.com/vi/OXimIOwr_dM/0.jpg" width="240" alt="Life Switch demo video" />
+</a>
 
 ### 2. [Unity ROS1 Pick-and-Place](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial)
 
@@ -54,15 +56,8 @@ Working through the spatial queries taught me why SQL efficiency matters at scal
 
 An Android prototype that uses the phone camera to recognize surroundings such as stairs and crosswalks and display warnings while another app is open. My work focused on collecting images and training the classification model.
 
-`Kotlin` · `PyTorch` · `ONNX Runtime`  
+`PyTorch`  
 [Demo](https://www.youtube.com/watch?v=ECNi-IljLDc)
-
-## Technical Skills
-
-- **Programming:** Python, C#, SQL; C++/Qt and Kotlin in personal projects
-- **Simulation & robotics:** Unity, ROS1, Gazebo, Docker
-- **Hardware integration:** ESP32, OpenRB-150, DYNAMIXEL, UART, WebSocket
-- **Data & tools:** PostgreSQL, QGIS, Linux
 
 ## Other Projects
 
