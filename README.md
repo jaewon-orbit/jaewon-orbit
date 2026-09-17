@@ -16,6 +16,7 @@ The first version needed a connected PC. That felt excessive for switching a lam
 
 `Python` · `FastAPI` · `WebSocket` · `ESP32` · `DYNAMIXEL`  
 <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle" /> [Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
+
 <a href="https://www.youtube.com/watch?v=OXimIOwr_dM">
   <img src="https://img.youtube.com/vi/OXimIOwr_dM/0.jpg" width="240" alt="Life Switch demo video" />
 </a>
@@ -28,6 +29,7 @@ A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set
 
 `Unity` · `ROS1 Noetic` · `Docker` · `TCP`  
 <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Integration demo](https://www.youtube.com/watch?v=XwEW-qXYQpw)   <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Motion planning demo](https://www.youtube.com/watch?v=53JapN59ZOc)
+
 <a href="https://www.youtube.com/watch?v=XwEW-qXYQpw">
   <img src="https://img.youtube.com/vi/XwEW-qXYQpw/0.jpg" width="240" alt="Unity ROS1 pick-and-place demo" />
 </a>
@@ -40,6 +42,7 @@ A Unity visualization for a university research project on recovering a fixed-wi
 
 `Unity` · `C#` · `Cinemachine`  
 <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Demo](https://www.youtube.com/watch?v=tNUVmWVUYQc)
+
 <a href="https://www.youtube.com/watch?v=tNUVmWVUYQc">
   <img src="https://img.youtube.com/vi/tNUVmWVUYQc/0.jpg" width="240" alt="Fixed-wing UAV recovery visualization" />
 </a>
@@ -52,6 +55,7 @@ A Unity image-generation script built to help a friend collect training data for
 
 `Unity` · `C#` · `Synthetic Data`  
 <img src="https://cdn.simpleicons.org/huggingface" width="16" height="16" alt="Hugging Face" align="absmiddle" /> [Dataset](https://huggingface.co/datasets/coding-Jay/Synthetic-Datasets-Unity-CV)   <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle" /> [Demo](https://youtu.be/wjZhpO2m6Bk)
+
 <a href="https://www.youtube.com/watch?v=wjZhpO2m6Bk">
   <img src="https://img.youtube.com/vi/wjZhpO2m6Bk/0.jpg" width="240" alt="Synthetic dataset generation in Unity" />
 </a>
@@ -68,6 +72,7 @@ Working through the spatial queries taught me why SQL efficiency matters at scal
 
 `PostgreSQL` · `Spatial SQL` · `QGIS` · `Docker`  
 <img src="https://cdn.simpleicons.org/notion/808080" width="16" height="16" alt="Notion" align="absmiddle"/> [Project documentation](https://app.notion.com/p/Golden-Time-Blind-Spots-Project-Documentation-727d6956ab994465be9b6d7a29a52009?source=copy_link)
+
 <a href="https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots">
   <img src="https://raw.githubusercontent.com/jaewon-orbit/jaewon-orbit/main/assets/golden-time-map.png" width="240" alt="Map from the Golden Time Blind Spots project" />
 </a>
@@ -82,6 +87,7 @@ An Android prototype that uses the phone camera to recognize surroundings such a
 
 `PyTorch` · `EfficientNet-B0`  
 <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" align="absmiddle"/> [Demo](https://www.youtube.com/watch?v=ECNi-IljLDc)
+
 <a href="https://www.youtube.com/watch?v=ECNi-IljLDc">
   <img src="https://img.youtube.com/vi/ECNi-IljLDc/0.jpg" width="240" alt="Smombie AR demo" />
 </a>
