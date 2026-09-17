@@ -15,7 +15,7 @@ An embedded system that lets me operate an existing lamp switch from my phone. I
 The first version needed a connected PC. That felt excessive for switching a lamp on and off, so I moved to ESP32-based control. I also addressed mismatches between the displayed state and motor position by requesting position on page load or browser reconnection and using position feedback after a button press, rather than polling continuously. The project taught me to adapt the hardware and communication approach to the actual job.
 
 `Python` · `FastAPI` · `WebSocket` · `ESP32` · `DYNAMIXEL`  
-<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" /> [Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
+<img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube" style="vertical-align:middle" /> [Demo](https://www.youtube.com/watch?v=OXimIOwr_dM)
 
 <a href="https://www.youtube.com/watch?v=OXimIOwr_dM">
   <img src="https://img.youtube.com/vi/OXimIOwr_dM/0.jpg" width="240" alt="Life Switch demo video" />
