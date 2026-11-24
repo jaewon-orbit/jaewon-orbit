@@ -113,9 +113,7 @@ A Unity image-generation script built to help a friend collect training data for
 
 ### 6. [Humanoid Skeleton Annotation Check](https://github.com/jaewon-orbit/humanoid-skeleton-annotation-check)
 
-*XR Lab, December 2022*
-
-At an XR lab, I annotated approximately 5,000 frames of upper-body skeleton keypoints (10 joints) for a humanoid robot, recorded from three camera views. To check the labels, I wrote a Colab notebook that parses the exported JSON, matches each annotation to its video frame, and draws the joints and bones back onto the image with OpenCV.
+At an XR lab in December 2022, I annotated approximately 5,000 frames of upper-body skeleton keypoints (10 joints) for a humanoid robot, recorded from three camera views. To check the labels, I wrote a Colab notebook that parses the exported JSON, matches each annotation to its video frame, and draws the joints and bones back onto the image with OpenCV.
 
 A list of coordinates is hard to judge on its own, but once drawn on the frame, a misplaced joint shows up at a glance. This was where I first learned to check data against its source instead of trusting it as exported. When I revisited the code in 2026, I found that the coordinate log skipped one of the 10 joints and fixed it.
 
