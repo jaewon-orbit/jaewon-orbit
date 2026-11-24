@@ -4,11 +4,13 @@
   <a href="https://github.com/jaewon-orbit"><img src="./assets/header-orbit.svg" alt="Building reliable systems" width="900"/></a>
 </p>
 
-Strong interest in the real world.  
-I focus on improving the reliability of systems that must work in reality.
+Through vehicle testing, I encountered edge cases that are obvious to humans but difficult for machines. Making a feature work is not enough. What matters is building machines that can be trusted in the real world.
 
-My orbit currently passes through **Autonomous Driving**, **ADAS**, **Robotics**, and **Verification & Validation**.  
-Making sure machines behave correctly when they meet the real world.
+Reliability is my north star.
+
+Life isn't a straight path to follow. It's an orbit we actively travel. Just as an orbit needs a constant balance of gravity and velocity to hold, life can also be designed.
+
+Currently orbiting **Autonomous Driving**, **ADAS**, **Robotics**, and **Verification & Validation**.
 
 <br>
 
