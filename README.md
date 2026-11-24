@@ -12,12 +12,13 @@ Making sure machines behave correctly when they meet the real world.
 
 ## Skills
 
-**Languages** `Python` `C++` `C#` `SQL`  
-**Robotics & Embedded** `ROS` `ROS 2` `ESP32` `DYNAMIXEL`  
-**Testing & V&V** `pytest` `JSON Schema` `Requirements Traceability`  
-**Simulation** `Unity` `Synthetic Data`  
-**Data & ML** `PyTorch` `PostgreSQL` `Spatial SQL` `QGIS`  
-**Tools** `Docker` `FastAPI` `WebSocket` `Git`
+**Verification & Validation** `pytest` `Playwright` `Xray` `Jira` `Confluence`  
+**Automotive Standards (working knowledge)** `ISO 26262` `ISO 21448 (SOTIF)` `ASPICE` `KNCAP/NCAP protocols`  
+**Robotics Frameworks** `ROS 1` `ROS 2` `MoveIt`  
+**Simulation** `Gazebo` `Isaac Sim` `MuJoCo` `Unity`  
+**Programming Languages** `Python` `C++` `C#` `SQL`  
+**Data & Geospatial** `PostgreSQL` `QGIS`  
+**Development Environment** `Linux` `Docker` `Git` `GitHub`
 
 ## Selected Engineering Projects
 
