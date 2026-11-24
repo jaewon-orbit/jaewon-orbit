@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
+  <defs>
+    <!-- Central star body: off-center light source with limb darkening -->
+    <radialGradient id="core" cx="38%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="14%" stop-color="#fffbeb"/>
+      <stop offset="34%" stop-color="#fef3c7"/>
+      <stop offset="58%" stop-color="#f3d79a"/>
+      <stop offset="80%" stop-color="#d4a865"/>
+      <stop offset="100%" stop-color="#8f6532"/>
+    </radialGradient>
+
+    <!-- Terminator shadow: darkens the side away from the light -->
+    <radialGradient id="shade" cx="34%" cy="30%" r="88%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="52%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="82%" stop-color="#1c1208" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#120a04" stop-opacity="0.62"/>
+    </radialGradient>
+
+    <!-- Rim light on the lit edge, gives a rounded silhouette -->
+    <radialGradient id="rim" cx="50%" cy="50%" r="50%">
+      <stop offset="84%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="96%" stop-color="#fff7d6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Corona around the star -->
+    <radialGradient id="corona" cx="50%" cy="50%" r="50%">
+      <stop offset="55%" stop-color="#fde68a" stop-opacity="0.38"/>
+      <stop offset="75%" stop-color="#fde68a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#fde68a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Specular highlight -->
+    <radialGradient id="spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Satellite bodies -->
+    <radialGradient id="satInner" cx="36%" cy="32%" r="74%">
+      <stop offset="0%" stop-color="#fdf6e9"/>
+      <stop offset="22%" stop-color="#f3dfbf"/>
+      <stop offset="50%" stop-color="#ddb985"/>
+      <stop offset="78%" stop-color="#b08550"/>
+      <stop offset="100%" stop-color="#6e4f26"/>
+    </radialGradient>
+    <radialGradient id="satMid" cx="36%" cy="32%" r="74%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#eef6fc"/>
+      <stop offset="46%" stop-color="#cfe1f2"/>
+      <stop offset="76%" stop-color="#8aa9c6"/>
+      <stop offset="100%" stop-color="#4f6f8e"/>
+    </radialGradient>
+    <radialGradient id="satOuter" cx="36%" cy="32%" r="74%">
+      <stop offset="0%" stop-color="#fbeeb0"/>
+      <stop offset="20%" stop-color="#eccb52"/>
+      <stop offset="48%" stop-color="#d09a18"/>
+      <stop offset="76%" stop-color="#8c5a07"/>
+      <stop offset="100%" stop-color="#4a2a02"/>
+    </radialGradient>
+
+    <!-- Orbit line gradients -->
+    <linearGradient id="orbitLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.05"/>
+      <stop offset="20%" stop-color="#00e5c0" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#7dffb3" stop-opacity="0.75"/>
+      <stop offset="80%" stop-color="#00e5c0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="orbitLineSoft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9a7" stop-opacity="0.03"/>
+      <stop offset="50%" stop-color="#5eead4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00c9a7" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="starGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="satGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Sphere builders: body + terminator shadow + specular + rim -->
+    <g id="sphOuter">
+      <circle r="10" fill="#a16207" opacity="0.18"/>
+      <circle r="6.8" fill="url(#satOuter)"/>
+      <circle r="6.8" fill="url(#shade)"/>
+      <ellipse cx="-2.3" cy="-2.6" rx="2.1" ry="1.5" fill="url(#spec)" transform="rotate(-35 -2.3 -2.6)"/>
+      <circle r="6.8" fill="url(#rim)"/>
+    </g>
+    <g id="sphMid">
+      <circle r="8.4" fill="#DCEAF7" opacity="0.2"/>
+      <circle r="5.5" fill="url(#satMid)"/>
+      <circle r="5.5" fill="url(#shade)"/>
+      <ellipse cx="-1.9" cy="-2.1" rx="1.7" ry="1.2" fill="url(#spec)" transform="rotate(-35 -1.9 -2.1)"/>
+      <circle r="5.5" fill="url(#rim)"/>
+    </g>
+    <g id="sphInner">
+      <circle r="6.6" fill="#d4a574" opacity="0.22"/>
+      <circle r="4.3" fill="url(#satInner)"/>
+      <circle r="4.3" fill="url(#shade)"/>
+      <ellipse cx="-1.5" cy="-1.6" rx="1.3" ry="0.9" fill="url(#spec)" transform="rotate(-35 -1.5 -1.6)"/>
+      <circle r="4.3" fill="url(#rim)"/>
+    </g>
+  </defs>
+
+  <!-- Adaptive text colors for light / dark mode -->
+  <style>
+    .title { fill: #f5f0e8; }
+    .subtitle { fill: #c9c2b8; }
+    @media (prefers-color-scheme: light) {
+      .title { fill: #292524; }
+      .subtitle { fill: #57534e; }
+    }
+  </style>
+
+  <!-- Distant stars -->
+  <g opacity="0.75">
+    <circle cx="72" cy="40" r="1.15" fill="#e7e5e4" filter="url(#starGlow)"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="190" cy="86" r="0.85" fill="#d6d3d1"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="295" cy="30" r="1.25" fill="#f5f5f4" filter="url(#starGlow)"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="425" cy="62" r="0.95" fill="#e7e5e4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="545" cy="24" r="1.1" fill="#d6d3d1" filter="url(#starGlow)"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="675" cy="50" r="0.75" fill="#f5f5f4"><animate attributeName="opacity" values="0.18;0.65;0.18" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="805" cy="36" r="1.2" fill="#e7e5e4" filter="url(#starGlow)"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="98" cy="178" r="0.9" fill="#d6d3d1"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="265" cy="198" r="1.05" fill="#f5f5f4" filter="url(#starGlow)"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="515" cy="188" r="0.8" fill="#e7e5e4"><animate attributeName="opacity" values="0.18;0.7;0.18" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="765" cy="172" r="1.15" fill="#d6d3d1" filter="url(#starGlow)"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="855" cy="118" r="0.7" fill="#f5f5f4"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ========== ORBIT SYSTEM (center 730,128, tilt -32 deg, 0.72 squash) ==========
+       Orbits are drawn as rotated ellipse paths so the spheres themselves stay round.
+       Each path starts at the upper-right end of the major axis: the first half runs
+       across the near side (in front of the star), the second half across the far side. -->
+
+  <!-- Full rings, behind the star -->
+  <g fill="none">
+    <path d="M 830.07 65.47 A 118 85 -32 1 1 629.93 190.53 A 118 85 -32 1 1 830.07 65.47" stroke="url(#orbitLine)" stroke-width="1.45" filter="url(#glow)" opacity="0.9"/>
+    <path d="M 830.07 65.47 A 118 85 -32 1 1 629.93 190.53 A 118 85 -32 1 1 830.07 65.47" stroke="url(#orbitLineSoft)" stroke-width="2.8" opacity="0.5"/>
+    <path d="M 799.54 84.55 A 82 59 -32 1 1 660.46 171.45 A 82 59 -32 1 1 799.54 84.55" stroke="url(#orbitLine)" stroke-width="1.25" filter="url(#glow)" opacity="0.8"/>
+    <path d="M 799.54 84.55 A 82 59 -32 1 1 660.46 171.45 A 82 59 -32 1 1 799.54 84.55" stroke="url(#orbitLineSoft)" stroke-width="2.4" opacity="0.4"/>
+    <path d="M 770.70 102.56 A 48 34.56 -32 1 1 689.30 153.44 A 48 34.56 -32 1 1 770.70 102.56" stroke="url(#orbitLine)" stroke-width="1.1" filter="url(#glow)" opacity="0.7"/>
+    <path d="M 770.70 102.56 A 48 34.56 -32 1 1 689.30 153.44 A 48 34.56 -32 1 1 770.70 102.56" stroke="url(#orbitLineSoft)" stroke-width="2.0" opacity="0.35"/>
+  </g>
+
+  <!-- Satellites on the far side (visible only during the second half of each orbit) -->
+  <g opacity="0">
+    <animateMotion dur="17.2s" begin="-3s" repeatCount="indefinite" path="M 830.07 65.47 A 118 85 -32 1 1 629.93 190.53 A 118 85 -32 1 1 830.07 65.47"/>
+    <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" calcMode="discrete" dur="17.2s" begin="-3s" repeatCount="indefinite"/>
+    <g filter="url(#satGlow)"><animateTransform attributeName="transform" type="scale" values="1;1.16;1;0.84;1" keyTimes="0;0.25;0.5;0.75;1" dur="17.2s" begin="-3s" repeatCount="indefinite"/><use href="#sphOuter"/></g>
+  </g>
+  <g opacity="0">
+    <animateMotion dur="11.8s" begin="-7s" repeatCount="indefinite" path="M 799.54 84.55 A 82 59 -32 1 1 660.46 171.45 A 82 59 -32 1 1 799.54 84.55"/>
+    <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" calcMode="discrete" dur="11.8s" begin="-7s" repeatCount="indefinite"/>
+    <g filter="url(#satGlow)"><animateTransform attributeName="transform" type="scale" values="1;1.14;1;0.86;1" keyTimes="0;0.25;0.5;0.75;1" dur="11.8s" begin="-7s" repeatCount="indefinite"/><use href="#sphMid"/></g>
+  </g>
+  <g opacity="0">
+    <animateMotion dur="7.6s" begin="-2s" repeatCount="indefinite" path="M 770.70 102.56 A 48 34.56 -32 1 1 689.30 153.44 A 48 34.56 -32 1 1 770.70 102.56"/>
+    <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" calcMode="discrete" dur="7.6s" begin="-2s" repeatCount="indefinite"/>
+    <g filter="url(#satGlow)"><animateTransform attributeName="transform" type="scale" values="1;1.12;1;0.88;1" keyTimes="0;0.25;0.5;0.75;1" dur="7.6s" begin="-2s" repeatCount="indefinite"/><use href="#sphInner"/></g>
+  </g>
+
+  <!-- Central star: corona, body, terminator shadow, specular, rim -->
+  <g transform="translate(730 128)">
+    <circle r="44" fill="url(#corona)">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="28" fill="url(#core)"/>
+    <circle r="28" fill="url(#shade)"/>
+    <ellipse cx="-9" cy="-10" rx="8" ry="5.2" fill="url(#spec)" transform="rotate(-35 -9 -10)" filter="url(#soft)"/>
+    <circle r="28" fill="url(#rim)"/>
+    <circle r="29.4" fill="none" stroke="#fefce8" stroke-width="1.2" opacity="0.35"/>
+  </g>
+
+  <!-- Near halves of the rings, drawn over the star -->
+  <g fill="none">
+    <path d="M 830.07 65.47 A 118 85 -32 1 1 629.93 190.53" stroke="url(#orbitLine)" stroke-width="1.45" filter="url(#glow)" opacity="0.9"/>
+    <path d="M 799.54 84.55 A 82 59 -32 1 1 660.46 171.45" stroke="url(#orbitLine)" stroke-width="1.25" filter="url(#glow)" opacity="0.8"/>
+    <path d="M 770.70 102.56 A 48 34.56 -32 1 1 689.30 153.44" stroke="url(#orbitLine)" stroke-width="1.1" filter="url(#glow)" opacity="0.7"/>
+  </g>
+
+  <!-- Satellites on the near side (visible during the first half of each orbit) -->
+  <g>
+    <animateMotion dur="17.2s" begin="-3s" repeatCount="indefinite" path="M 830.07 65.47 A 118 85 -32 1 1 629.93 190.53 A 118 85 -32 1 1 830.07 65.47"/>
+    <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="17.2s" begin="-3s" repeatCount="indefinite"/>
+    <g filter="url(#satGlow)"><animateTransform attributeName="transform" type="scale" values="1;1.16;1;0.84;1" keyTimes="0;0.25;0.5;0.75;1" dur="17.2s" begin="-3s" repeatCount="indefinite"/><use href="#sphOuter"/></g>
+  </g>
+  <g>
+    <animateMotion dur="11.8s" begin="-7s" repeatCount="indefinite" path="M 799.54 84.55 A 82 59 -32 1 1 660.46 171.45 A 82 59 -32 1 1 799.54 84.55"/>
+    <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="11.8s" begin="-7s" repeatCount="indefinite"/>
+    <g filter="url(#satGlow)"><animateTransform attributeName="transform" type="scale" values="1;1.14;1;0.86;1" keyTimes="0;0.25;0.5;0.75;1" dur="11.8s" begin="-7s" repeatCount="indefinite"/><use href="#sphMid"/></g>
+  </g>
+  <g>
+    <animateMotion dur="7.6s" begin="-2s" repeatCount="indefinite" path="M 770.70 102.56 A 48 34.56 -32 1 1 689.30 153.44 A 48 34.56 -32 1 1 770.70 102.56"/>
+    <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="7.6s" begin="-2s" repeatCount="indefinite"/>
+    <g filter="url(#satGlow)"><animateTransform attributeName="transform" type="scale" values="1;1.12;1;0.88;1" keyTimes="0;0.25;0.5;0.75;1" dur="7.6s" begin="-2s" repeatCount="indefinite"/><use href="#sphInner"/></g>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(42, 88)">
+    <text x="0" y="0" class="title" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="700" letter-spacing="-0.6">Building reliable systems</text>
+    <text x="0" y="42" class="subtitle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="400" letter-spacing="0.2">with Software, Simulation, and Hardware</text>
+  </g>
+</svg>
