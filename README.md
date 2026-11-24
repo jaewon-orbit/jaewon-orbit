@@ -1,15 +1,23 @@
 # 🪐 Welcome aboard Jaewon Orbit
 
 <p align="center">
-  <img src="./assets/header-orbit.svg" alt="Building reliable systems" width="900"/>
+  <a><img src="./assets/header-orbit.svg" alt="Building reliable systems" width="900"/></a>
 </p>
 
 Strong interest in the real world.  
 I focus on improving the reliability of systems that must work in reality.
 
-My orbit currently passes through **Autonomous Driving**, **ADAS**, **Robotics**, and **Verification & Validation**. Making sure machines behave correctly when they meet the real world.
+My orbit currently passes through **Autonomous Driving**, **ADAS**, **Robotics**, and **Verification & Validation**.  
+Making sure machines behave correctly when they meet the real world.
 
-`Python` `C#` `Unity` `ROS` `ROS 2`
+## Skills
+
+**Languages** `Python` `C++` `C#` `SQL`  
+**Robotics & Embedded** `ROS` `ROS 2` `ESP32` `DYNAMIXEL`  
+**Testing & V&V** `pytest` `JSON Schema` `Requirements Traceability`  
+**Simulation** `Unity` `Synthetic Data`  
+**Data & ML** `PyTorch` `PostgreSQL` `Spatial SQL` `QGIS`  
+**Tools** `Docker` `FastAPI` `WebSocket` `Git`
 
 ## Selected Engineering Projects
 
@@ -26,7 +34,7 @@ The first version needed a connected PC. That felt excessive for switching a lam
   <img src="https://img.youtube.com/vi/OXimIOwr_dM/0.jpg" width="240" alt="Life Switch demo video" />
 </a>
 
-<br>
+---
 
 ### 2. [LiDAR Driver Test Design](https://github.com/jaewon-orbit/lidar-driver-test-design)
 
@@ -44,7 +52,7 @@ The project was an exercise in treating documentation and configuration as first
   <img src="https://raw.githubusercontent.com/jaewon-orbit/lidar-driver-test-design/main/docs/figures/fov_top_view.png" width="240" alt="FoV settings applied to a replayed XT32 recording" />
 </a>
 
-<br>
+---
 
 ### 3. [Unity ROS1 Pick-and-Place](https://github.com/jaewon-orbit/Unity-ROS1-Pick-and-Place-Tutorial)
 
@@ -57,7 +65,7 @@ A hands-on implementation of Unity Robotics Hub's pick-and-place tutorial. I set
   <img src="https://img.youtube.com/vi/XwEW-qXYQpw/0.jpg" width="240" alt="Unity ROS1 pick-and-place demo" />
 </a>
 
-<br>
+---
 
 ### 4. [Docking Scene](https://github.com/jaewon-orbit/Docking-Scene)
 
@@ -70,7 +78,7 @@ A Unity visualization developed for a university research project on recovering 
   <img src="https://img.youtube.com/vi/tNUVmWVUYQc/0.jpg" width="240" alt="Fixed-wing UAV recovery visualization" />
 </a>
 
-<br>
+---
 
 ### 5. [Synthetic Dataset Generation](https://github.com/jaewon-orbit/Synthetic-Dataset-Generation)
 
@@ -85,9 +93,11 @@ A Unity image-generation script built to help a friend collect training data for
 
 <br>
 
-## Geospatial Analysis
+## Safety Through Data & Vision
 
-### [Golden Time Blind Spots](https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots)
+### 1. [Golden Time Blind Spots](https://github.com/jaewon-orbit/Golden-TIme-Blind-Spots)
+
+*Geospatial Analysis*
 
 During my Monash University internship, I led an analysis of areas beyond a four-minute ambulance coverage threshold in South Korea. The analysis classified about **45% of 18,801 small administrative areas** as outside that threshold. Maps incorporating population density highlighted areas near urban boundaries where additional ambulance coverage could be considered.
 
@@ -100,11 +110,11 @@ Working through the spatial queries taught me why SQL efficiency matters at scal
   <img src="https://raw.githubusercontent.com/jaewon-orbit/jaewon-orbit/main/assets/golden-time-map.png" width="240" alt="Map from the Golden Time Blind Spots project" />
 </a>
 
-<br>
+---
 
-## Computer Vision
+### 2. [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
 
-### [Smombie AR](https://github.com/jaewon-orbit/Smombie-AR)
+*Computer Vision*
 
 An Android prototype that uses the phone camera to recognize surroundings such as stairs and crosswalks and display warnings while another app is open. My work focused on collecting images and training the classification model.
 
@@ -119,24 +129,19 @@ An Android prototype that uses the phone camera to recognize surroundings such a
 
 ## Other Projects
 
-<details>
-<summary>Data analysis, applications, and earlier projects</summary>
+- **[NYC Taxi Trend Analysis](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction)** — *Data Analysis Project.* Python notebooks exploring demand, destinations, and recorded tips in NYC taxi trip data.
 
-- **[NYC Taxi Trend Analysis](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction)** — Python notebooks exploring demand, destinations, and recorded tips in NYC taxi trip data.
+- **[Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)** — *University Team App Project.* Groups assignments by submission status and makes midnight deadlines easier to understand.
 
-- **[Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)** — A university team project that groups assignments by submission status and makes midnight deadlines easier to understand.
+- **[Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)** — *C++/Qt App Project.* A personal task list exploring a Tesla-style infotainment interface.
 
-- **[Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)** — A personal C++/Qt task-list project exploring a Tesla-style infotainment interface.
+- **[Apple visionOS Demo](https://github.com/jaewon-orbit/Apple-Vison-OS-Demo)** — *visionOS App Project.* An early exploration of visionOS using the Xcode simulator.
 
-- **[Apple visionOS Demo](https://github.com/jaewon-orbit/Apple-Vison-OS-Demo)** — An early exploration of visionOS using the Xcode simulator.
+- **[Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)** — *Roblox Metaverse Project.* A team-built recreation of Gachon University's campus for its 2022 Metaverse Contest.
 
-- **[Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)** — A team-built Roblox recreation of Gachon University's campus for its 2022 Metaverse Contest.
+- **[TankBlitz](https://github.com/jaewon-orbit/TankBlitz)** — *Unity Multiplayer Game Project.* A tank game where I explored projectile motion and networked gameplay.
 
-- **[TankBlitz](https://github.com/jaewon-orbit/TankBlitz)** — A Unity multiplayer tank game where I explored projectile motion and networked gameplay.
-
-- **[Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)** — A Unity learning project covering object pooling, game states, and scoring.
-
-</details>
+- **[Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)** — *Unity 2D Game Project.* A learning project covering object pooling, game states, and scoring.
 
 <br>
 
