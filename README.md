@@ -1,7 +1,7 @@
 # 🪐 Welcome aboard Jaewon Orbit
 
 <p align="center">
-  <a><img src="./assets/header-orbit.svg" alt="Building reliable systems" width="900"/></a>
+  <a href="https://github.com/jaewon-orbit"><img src="./assets/header-orbit.svg" alt="Building reliable systems" width="900"/></a>
 </p>
 
 Strong interest in the real world.  
