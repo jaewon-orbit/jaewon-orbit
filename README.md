@@ -15,25 +15,25 @@ Making sure machines behave correctly when they meet the real world.
 ## Skills
 
 **Verification & Validation**  
-<img src="https://img.shields.io/badge/pytest-00897B?style=flat-square" alt="pytest" /> <img src="https://img.shields.io/badge/Playwright-00897B?style=flat-square" alt="Playwright" /> <img src="https://img.shields.io/badge/Xray-00897B?style=flat-square" alt="Xray" /> <img src="https://img.shields.io/badge/Jira-00897B?style=flat-square" alt="Jira" /> <img src="https://img.shields.io/badge/Confluence-00897B?style=flat-square" alt="Confluence" />
+<img src="https://img.shields.io/badge/pytest-44403C?style=flat-square" alt="pytest" /> <img src="https://img.shields.io/badge/Playwright-44403C?style=flat-square" alt="Playwright" /> <img src="https://img.shields.io/badge/Xray-44403C?style=flat-square" alt="Xray" /> <img src="https://img.shields.io/badge/Jira-44403C?style=flat-square" alt="Jira" /> <img src="https://img.shields.io/badge/Confluence-44403C?style=flat-square" alt="Confluence" />
 
 **Automotive Standards** *(working knowledge)*  
-<img src="https://img.shields.io/badge/ISO_26262-00A896?style=flat-square" alt="ISO 26262" /> <img src="https://img.shields.io/badge/ISO_21448_(SOTIF)-00A896?style=flat-square" alt="ISO 21448 (SOTIF)" /> <img src="https://img.shields.io/badge/ASPICE-00A896?style=flat-square" alt="ASPICE" /> <img src="https://img.shields.io/badge/KNCAP%2FNCAP_protocols-00A896?style=flat-square" alt="KNCAP/NCAP protocols" />
+<img src="https://img.shields.io/badge/ISO_26262-57534E?style=flat-square" alt="ISO 26262" /> <img src="https://img.shields.io/badge/ISO_21448_(SOTIF)-57534E?style=flat-square" alt="ISO 21448 (SOTIF)" /> <img src="https://img.shields.io/badge/ASPICE-57534E?style=flat-square" alt="ASPICE" /> <img src="https://img.shields.io/badge/KNCAP%2FNCAP_protocols-57534E?style=flat-square" alt="KNCAP/NCAP protocols" />
 
 **Robotics Frameworks**  
-<img src="https://img.shields.io/badge/ROS_1-B45309?style=flat-square" alt="ROS 1" /> <img src="https://img.shields.io/badge/ROS_2-B45309?style=flat-square" alt="ROS 2" /> <img src="https://img.shields.io/badge/MoveIt-B45309?style=flat-square" alt="MoveIt" />
+<img src="https://img.shields.io/badge/ROS_1-78716C?style=flat-square" alt="ROS 1" /> <img src="https://img.shields.io/badge/ROS_2-78716C?style=flat-square" alt="ROS 2" /> <img src="https://img.shields.io/badge/MoveIt-78716C?style=flat-square" alt="MoveIt" />
 
 **Simulation**  
-<img src="https://img.shields.io/badge/Gazebo-D97706?style=flat-square" alt="Gazebo" /> <img src="https://img.shields.io/badge/Isaac_Sim-D97706?style=flat-square" alt="Isaac Sim" /> <img src="https://img.shields.io/badge/MuJoCo-D97706?style=flat-square" alt="MuJoCo" /> <img src="https://img.shields.io/badge/Unity-D97706?style=flat-square" alt="Unity" />
+<img src="https://img.shields.io/badge/Gazebo-B45309?style=flat-square" alt="Gazebo" /> <img src="https://img.shields.io/badge/Isaac_Sim-B45309?style=flat-square" alt="Isaac Sim" /> <img src="https://img.shields.io/badge/MuJoCo-B45309?style=flat-square" alt="MuJoCo" /> <img src="https://img.shields.io/badge/Unity-B45309?style=flat-square" alt="Unity" />
 
 **Programming Languages**  
-<img src="https://img.shields.io/badge/Python-44403C?style=flat-square" alt="Python" /> <img src="https://img.shields.io/badge/C%2B%2B-44403C?style=flat-square" alt="C++" /> <img src="https://img.shields.io/badge/C%23-44403C?style=flat-square" alt="C#" /> <img src="https://img.shields.io/badge/SQL-44403C?style=flat-square" alt="SQL" />
+<img src="https://img.shields.io/badge/Python-D97706?style=flat-square" alt="Python" /> <img src="https://img.shields.io/badge/C%2B%2B-D97706?style=flat-square" alt="C++" /> <img src="https://img.shields.io/badge/C%23-D97706?style=flat-square" alt="C#" /> <img src="https://img.shields.io/badge/SQL-D97706?style=flat-square" alt="SQL" />
 
 **Data & Geospatial**  
-<img src="https://img.shields.io/badge/PostgreSQL-57534E?style=flat-square" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/QGIS-57534E?style=flat-square" alt="QGIS" />
+<img src="https://img.shields.io/badge/PostgreSQL-00897B?style=flat-square" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/QGIS-00897B?style=flat-square" alt="QGIS" />
 
 **Development Environment**  
-<img src="https://img.shields.io/badge/Linux-78716C?style=flat-square" alt="Linux" /> <img src="https://img.shields.io/badge/Docker-78716C?style=flat-square" alt="Docker" /> <img src="https://img.shields.io/badge/Git-78716C?style=flat-square" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-78716C?style=flat-square" alt="GitHub" />
+<img src="https://img.shields.io/badge/Linux-00A896?style=flat-square" alt="Linux" /> <img src="https://img.shields.io/badge/Docker-00A896?style=flat-square" alt="Docker" /> <img src="https://img.shields.io/badge/Git-00A896?style=flat-square" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-00A896?style=flat-square" alt="GitHub" />
 
 <br>
 
