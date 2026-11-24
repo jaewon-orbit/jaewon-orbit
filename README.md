@@ -10,15 +10,19 @@ I focus on improving the reliability of systems that must work in reality.
 My orbit currently passes through **Autonomous Driving**, **ADAS**, **Robotics**, and **Verification & Validation**.  
 Making sure machines behave correctly when they meet the real world.
 
+<br>
+
 ## Skills
 
-**Verification & Validation** `pytest` `Playwright` `Xray` `Jira` `Confluence`  
-**Automotive Standards (working knowledge)** `ISO 26262` `ISO 21448 (SOTIF)` `ASPICE` `KNCAP/NCAP protocols`  
-**Robotics Frameworks** `ROS 1` `ROS 2` `MoveIt`  
-**Simulation** `Gazebo` `Isaac Sim` `MuJoCo` `Unity`  
-**Programming Languages** `Python` `C++` `C#` `SQL`  
-**Data & Geospatial** `PostgreSQL` `QGIS`  
-**Development Environment** `Linux` `Docker` `Git` `GitHub`
+Verification & Validation `pytest` `Playwright` `Xray` `Jira` `Confluence`  
+Automotive Standards (working knowledge) `ISO 26262` `ISO 21448 (SOTIF)` `ASPICE` `KNCAP/NCAP protocols`  
+Robotics Frameworks `ROS 1` `ROS 2` `MoveIt`  
+Simulation `Gazebo` `Isaac Sim` `MuJoCo` `Unity`  
+Programming Languages `Python` `C++` `C#` `SQL`  
+Data & Geospatial `PostgreSQL` `QGIS`  
+Development Environment `Linux` `Docker` `Git` `GitHub`
+
+<br>
 
 ## Selected Engineering Projects
 
@@ -130,19 +134,23 @@ An Android prototype that uses the phone camera to recognize surroundings such a
 
 ## Other Projects
 
-- **[NYC Taxi Trend Analysis](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction)** — *Data Analysis Project.* Python notebooks exploring demand, destinations, and recorded tips in NYC taxi trip data.
+- **[Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)** — *C++/Qt App Project.*  
+  A personal task list exploring a Tesla-style infotainment interface.
 
-- **[Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)** — *University Team App Project.* Groups assignments by submission status and makes midnight deadlines easier to understand.
+- **[NYC Taxi Trend Analysis](https://github.com/jaewon-orbit/NYC_Taxi_Trend_Analysis-Demand_and_Destination_Prediction)** — *Data Analysis Project.*  
+  Python notebooks exploring demand, destinations, and recorded tips in NYC taxi trip data.
 
-- **[Tesla TO-DO List](https://github.com/jaewon-orbit/Tesla-TO-DO-List)** — *C++/Qt App Project.* A personal task list exploring a Tesla-style infotainment interface.
+- **[Assignment Notification](https://github.com/jaewon-orbit/assignment-notification)** — *University Team App Project.*  
+  Groups assignments by submission status and makes midnight deadlines easier to understand.
 
-- **[Apple visionOS Demo](https://github.com/jaewon-orbit/Apple-Vison-OS-Demo)** — *visionOS App Project.* An early exploration of visionOS using the Xcode simulator.
+- **[TankBlitz](https://github.com/jaewon-orbit/TankBlitz)** — *Unity Multiplayer Game Project.*  
+  A tank game where I explored projectile motion and networked gameplay.
 
-- **[Virtual Campus](https://github.com/jaewon-orbit/Virtual-Campus)** — *Roblox Metaverse Project.* A team-built recreation of Gachon University's campus for its 2022 Metaverse Contest.
+- **[Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)** — *Unity 2D Game Project.*  
+  A learning project covering object pooling, game states, and scoring.
 
-- **[TankBlitz](https://github.com/jaewon-orbit/TankBlitz)** — *Unity Multiplayer Game Project.* A tank game where I explored projectile motion and networked gameplay.
-
-- **[Raiden 2D Shooting Game](https://github.com/jaewon-orbit/Raiden-Unity-2D-Shooting-Game)** — *Unity 2D Game Project.* A learning project covering object pooling, game states, and scoring.
+- **[Apple visionOS Demo](https://github.com/jaewon-orbit/Apple-Vison-OS-Demo)** — *visionOS App Project.*  
+  An early exploration of visionOS using the Xcode simulator.
 
 <br>
 
