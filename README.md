@@ -4,13 +4,26 @@
   <a href="https://github.com/jaewon-orbit"><img src="./assets/header-orbit.svg" alt="Building reliable systems" width="900"/></a>
 </p>
 
-Through vehicle testing, I encountered edge cases that are obvious to humans but difficult for machines. Making a feature work is not enough. What matters is building machines that can be trusted in the real world.
+Through vehicle testing I kept meeting edge cases that are obvious to humans yet stubbornly difficult for machines.
+
+Making a feature work is never enough. What actually matters is building systems people can trust in the real world.
 
 Reliability is my north star.
 
-Life isn't a straight path to follow. It's an orbit we actively travel. Just as an orbit needs a constant balance of gravity and velocity to hold, life can also be designed.
+I currently orbit Autonomous Driving, ADAS, Robotics, and Verification & Validation with reliability always at the center.
 
-Currently orbiting **Autonomous Driving**, **ADAS**, **Robotics**, and **Verification & Validation**.
+<br>
+
+> Why Orbit?
+>
+> I believe Life is not a straight road we simply follow. It is an orbit we actively travel.
+>
+> Even now Earth is traveling at about 107,200 km/h and we have never stood in the exact same place even once.
+>
+> An orbit holds only because gravity and velocity never stop trying.
+>
+> Life can be designed if we keep trying. Like Earth, we can create our own orbit.
+
 
 <br>
 
@@ -126,6 +139,7 @@ A list of coordinates is hard to judge on its own, but once drawn on the frame, 
 </a>
 
 <br>
+<br>
 
 ## Safety Through Data & Vision
 
@@ -159,6 +173,7 @@ An Android prototype that uses the phone camera to recognize surroundings such a
   <img src="https://img.youtube.com/vi/ECNi-IljLDc/0.jpg" width="240" alt="Smombie AR demo" />
 </a>
 
+<br>
 <br>
 
 ## Other Projects
